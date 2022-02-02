@@ -8,6 +8,9 @@ import "../js/main";
 const Home: NextPage = () => {
   return (
     <>
+    <Head>
+      <title>Raul - Sigoli</title>
+    </Head>
       <main className="main-content">
         <section className="left-section">
           <div className="left-content">
