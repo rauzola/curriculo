@@ -196,17 +196,16 @@ const Home: NextPage = () => {
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">Anpad</h5>
-                  <p className="para">2020 - Atualmente</p>
+                  <p className="para">2020/08 - 2022/08</p>
                 </div>
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Estagiário de T.I</h5>
                     <p className="para">
-                      Atuo na área de desenvolvimento de novas telas e
-                      funcionalidades.
+                      Atuava na área de desenvolvimento front-end (desenvolvendo sites e de novas routa dos eventos realizados)  
                       <br />
                       <br />
-                      Atuo também na área de edição de vídeo no Premiere e no Photoshop
+                      Atuava também na área de edição de vídeo no Premiere e no Photoshop
                     </p>
                   </div>
                 </div>
