@@ -127,7 +127,7 @@ body {
 }
 
 .js-progress {
-    width: 70%;
+    width: 80%;
 }
 
 .ps-progress {
@@ -139,7 +139,7 @@ body {
 }
 
 .c-progress {
-    width: 80%;
+    width: 40%;
 }
 
 .n-progress {
@@ -148,6 +148,26 @@ body {
 
 .w-progress {
     width: 78%;
+}
+
+.Typescript-progress {
+    width: 70%;
+}
+
+.ANT-progress {
+    width: 60%;
+}
+
+.Leaflet-progress {
+    width: 30%;
+}
+
+.Styled-progress {
+    width: 85%;
+}
+
+.GraphQL-progress {
+    width: 90%;
 }
 
 .skill-title {
