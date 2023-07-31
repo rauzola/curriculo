@@ -8,9 +8,9 @@ import "../js/main";
 const Home: NextPage = () => {
   return (
     <>
-    <Head>
-      <title>Raul - Sigoli</title>
-    </Head>
+      <Head>
+        <title>Raul - Sigoli</title>
+      </Head>
       <main className="main-content">
         <section className="left-section">
           <div className="left-content">
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
                   alt=""
                 />
               </div>
-              <h2 className="name">Raul Henrique Silva Sigoli</h2>
+              <h2 className="name">Raul Henrique S. Sigoli</h2>
               <p className="career">Engenheiro de Computação</p>
             </div>
 
@@ -42,8 +42,8 @@ const Home: NextPage = () => {
                 </li>
                 <li>
                   <i className="fa fa-globe" />
-                  <a href="https://raul-portfolio.vercel.app/" target="_blank">
-                    raul-portfolio.vercel.app
+                  <a href="#" target="_blank">
+                    portfolio (EM-BREVE)
                   </a>
                 </li>
                 <li>
@@ -80,6 +80,48 @@ const Home: NextPage = () => {
               <h3 className="main-title">Skills</h3>
               <ul>
                 <li>
+                  <p className="skill-title">React/Next</p>
+                  <div className="progress-bar">
+                    <div className="progress ps-progress" />
+                  </div>
+                </li>
+
+                <li>
+                  <p className="skill-title">Typescript</p>
+                  <div className="progress-bar">
+                    <div className="progress Typescript-progress" />
+                  </div>
+                </li>
+
+                <li>
+                  <p className="skill-title">ANT-Design</p>
+                  <div className="progress-bar">
+                    <div className="progress ANT-progress" />
+                  </div>
+                </li>
+
+                <li>
+                  <p className="skill-title">Leaflet</p>
+                  <div className="progress-bar">
+                    <div className="progress Leaflet-progress" />
+                  </div>
+                </li>
+
+                <li>
+                  <p className="skill-title">Styled-components</p>
+                  <div className="progress-bar">
+                    <div className="progress Styled-progress" />
+                  </div>
+                </li>
+
+                <li>
+                  <p className="skill-title">GraphQL</p>
+                  <div className="progress-bar">
+                    <div className="progress GraphQL-progress" />
+                  </div>
+                </li>
+
+                <li>
                   <p className="skill-title">html/css</p>
                   <div className="progress-bar">
                     <div className="progress ps-progress" />
@@ -104,7 +146,7 @@ const Home: NextPage = () => {
                     <div className="progress c-progress" />
                   </div>
                 </li>
-              
+
                 <li>
                   <p className="skill-title">Node js</p>
                   <div className="progress-bar">
@@ -118,15 +160,9 @@ const Home: NextPage = () => {
                     <div className="progress ps-progress" />
                   </div>
                 </li>
-                <li>
-                  <p className="skill-title">React</p>
-                  <div className="progress-bar">
-                    <div className="progress ps-progress" />
-                  </div>
-                </li>
               </ul>
             </div>
-{/* 
+            {/* 
             <div className="references-section">
               <h3 className="main-title">References</h3>
               <div className="referee">
@@ -172,8 +208,6 @@ const Home: NextPage = () => {
                 </ul>
               </div>
             </div> */}
-
-
           </div>
         </section>
 
@@ -193,6 +227,34 @@ const Home: NextPage = () => {
 
             <section className="experince sect">
               <h2 className="right-title">Dados Profissionais</h2>
+
+              <div className="timeline">
+                <div className="left-tl-content">
+                  <h5 className="tl-title">Datlo</h5>
+                  <p className="para">2022/10 - 2023/07</p>
+                </div>
+                <div className="right-tl-content">
+                  <div className="tl-content">
+                    <h5 className="tl-title-2">
+                      Estagiário de Programação Front-End (React)
+                    </h5>
+                    <p className="para">
+                      Fui responsável pelo desenvolvimento do front-end da
+                      plataforma inteligente de localização. A plataforma
+                      fornecia soluções que auxiliavam empresas a encontrar
+                      novos clientes, parceiros estratégicos, monitorar o
+                      mercado e os concorrentes, e abrir novas lojas em pontos
+                      estratégicos.
+                      <br />
+                      <br />
+                      Durante o projeto, utilizei ferramentas como
+                      React/Next.js, Typescript, ANT-Design, Leaflet,
+                      Styled-components e GraphQL.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">Anpad</h5>
@@ -202,10 +264,12 @@ const Home: NextPage = () => {
                   <div className="tl-content">
                     <h5 className="tl-title-2">Estagiário de T.I</h5>
                     <p className="para">
-                      Atuava na área de desenvolvimento front-end (desenvolvendo sites e de novas routa dos eventos realizados)  
+                      Atuava na área de desenvolvimento front-end (desenvolvendo
+                      sites e de novas routa dos eventos realizados)
                       <br />
                       <br />
-                      Atuava também na área de edição de vídeo no Premiere e no Photoshop
+                      Atuava também na área de edição de vídeo no Premiere e no
+                      Photoshop
                     </p>
                   </div>
                 </div>
@@ -236,12 +300,12 @@ const Home: NextPage = () => {
                   <div className="tl-content">
                     <h5 className="tl-title-2">Editor</h5>
                     <p className="para">
-                      Editava videos e materias do Programa da Mirna Lavecc, que ia ao ar todos os sabados
+                      Editava videos e materias do Programa da Mirna Lavecc, que
+                      ia ao ar todos os sabados
                     </p>
                   </div>
                 </div>
               </div>
-
             </section>
             <section className="education sect">
               <h2 className="right-title">Escolaridade</h2>
@@ -253,9 +317,7 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Engenharia de Computação</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
@@ -267,14 +329,10 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Ensino médio</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
-
-
             </section>
             <section className="awards sect">
               <h2 className="right-title">Crusos</h2>
@@ -286,32 +344,24 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">DB1 Group</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
 
-
               <div className="timeline">
                 <div className="left-tl-content">
-                  
-                    <h5 className="tl-title">Ignite</h5>
-                    <p className="para">2021/03 - 2022/01</p>
-                 
+                  <h5 className="tl-title">Ignite</h5>
+                  <p className="para">2021/03 - 2022/01</p>
                 </div>
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Rocketseat</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
 
-              
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">GoStack</h5>
@@ -320,14 +370,11 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Rocketseat</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
 
-              
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">Pacote Office365</h5>
@@ -336,9 +383,7 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Microsoft</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
@@ -351,13 +396,10 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Prepara Cursos</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
-
 
               <div className="timeline">
                 <div className="left-tl-content">
@@ -367,29 +409,25 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Prepara Cursos</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
 
-
               <div className="timeline">
                 <div className="left-tl-content">
-                  <h5 className="tl-title">Montagem e Manutenção de Computadores, Notebook e Celulares</h5>
+                  <h5 className="tl-title">
+                    Montagem e Manutenção de Computadores, Notebook e Celulares
+                  </h5>
                   <p className="para">2018/02 - 2018/05</p>
                 </div>
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Prepara Cursos</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
-
 
               <div className="timeline">
                 <div className="left-tl-content">
@@ -399,13 +437,10 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Prepara Cursos</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
-
 
               <div className="timeline">
                 <div className="left-tl-content">
@@ -415,9 +450,7 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Prepara Cursos</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
@@ -430,13 +463,10 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Prepara Cursos</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
-
 
               <div className="timeline">
                 <div className="left-tl-content">
@@ -446,13 +476,10 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Prepara Cursos</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
-
 
               <div className="timeline">
                 <div className="left-tl-content">
@@ -462,18 +489,10 @@ const Home: NextPage = () => {
                 <div className="right-tl-content">
                   <div className="tl-content">
                     <h5 className="tl-title-2">Sergio Yamada</h5>
-                    <p className="para">
-                      
-                    </p>
+                    <p className="para"></p>
                   </div>
                 </div>
               </div>
-
-
-
-
-
-
             </section>
           </div>
         </section>
