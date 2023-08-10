@@ -40,12 +40,12 @@ const Home: NextPage = () => {
                     raul_sigoli@hotmail.com
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <i className="fa fa-globe" />
                   <a href="#" target="_blank">
                     portfolio (EM-BREVE)
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <i className="fa fa-linkedin" />
                   <a
@@ -216,11 +216,12 @@ const Home: NextPage = () => {
             <section className="about sect">
               <h2 className="right-title">Sobre min</h2>
               <p className="para">
-                Raul Henrique Silva Sigoli, Jovem Programador Web profissional,
-                competente para criação e elaboração de projeto estético e
-                funcional de website, com uma uma curta experiencia mais muito
-                densa, sempre em busca de um novo desafio para estimulação de um
-                crescimento profissional
+                Raul Henrique Silva Sigoli, Programador Web dedicado e
+                competente, especializado na criação e desenvolvimento de
+                websites estéticos e funcionais. Apesar de ter experiência
+                breve, possui uma trajetória densa e significativa no campo.
+                Sempre em busca de novos desafios para impulsionar o crescimento
+                profissional.
                 <br />
               </p>
             </section>
@@ -264,12 +265,14 @@ const Home: NextPage = () => {
                   <div className="tl-content">
                     <h5 className="tl-title-2">Estagiário de T.I</h5>
                     <p className="para">
-                      Atuava na área de desenvolvimento front-end (desenvolvendo
-                      sites e de novas routa dos eventos realizados)
+                      Atuava como Desenvolvedor Front-end, responsável pela
+                      criação de sites e desenvolvimento de rotas para eventos
+                      realizados.
                       <br />
                       <br />
-                      Atuava também na área de edição de vídeo no Premiere e no
-                      Photoshop
+                       Possuo experiência na edição de vídeos
+                      utilizando o Adobe Premiere e habilidades de edição
+                      gráfica no Adobe Photoshop.
                     </p>
                   </div>
                 </div>
@@ -286,7 +289,7 @@ const Home: NextPage = () => {
                     <p className="para">
                       Atuava na parte de Infraestrutura da fabrica, reparando e
                       arrumando computadores, impressoras e sistemas (quando
-                      necessitava),
+                      necessitava).
                     </p>
                   </div>
                 </div>
