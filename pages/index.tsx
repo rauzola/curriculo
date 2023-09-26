@@ -22,7 +22,7 @@ const Home: NextPage = () => {
                 />
               </div>
               <h2 className="name">Raul Henrique S. Sigoli</h2>
-              <p className="career">Engenheiro de Computação</p>
+              {/* <p className="career">Engenheiro de Computação</p> */}
             </div>
 
             <div className="contact-info">
@@ -314,6 +314,18 @@ const Home: NextPage = () => {
               <h2 className="right-title">Escolaridade</h2>
               <div className="timeline">
                 <div className="left-tl-content">
+                  <h5 className="tl-title">UNICV</h5>
+                  <p className="para">2023 - 2024</p>
+                </div>
+                <div className="right-tl-content">
+                  <div className="tl-content">
+                    <h5 className="tl-title-2">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS ( ADS ) </h5>
+                    <p className="para"></p>
+                  </div>
+                </div>
+              </div>
+              <div className="timeline">
+                <div className="left-tl-content">
                   <h5 className="tl-title">Feitep</h5>
                   <p className="para">2018 - 2023</p>
                 </div>
@@ -339,6 +351,19 @@ const Home: NextPage = () => {
             </section>
             <section className="awards sect">
               <h2 className="right-title">Crusos</h2>
+              <div className="timeline">
+                <div className="left-tl-content">
+                  <h5 className="tl-title">Ignite</h5>
+                  <p className="para">2023/01 - 2023/12</p>
+                </div>
+                <div className="right-tl-content">
+                  <div className="tl-content">
+                    <h5 className="tl-title-2">Rocketseat</h5>
+                    <p className="para"></p>
+                  </div>
+                </div>
+              </div>
+
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">DB1 Start</h5>
