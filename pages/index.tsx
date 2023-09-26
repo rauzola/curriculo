@@ -350,7 +350,9 @@ const Home: NextPage = () => {
               </div>
             </section>
             <section className="awards sect">
+              
               <h2 className="right-title">Crusos</h2>
+              
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">Ignite</h5>
@@ -363,7 +365,6 @@ const Home: NextPage = () => {
                   </div>
                 </div>
               </div>
-
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">DB1 Start</h5>
