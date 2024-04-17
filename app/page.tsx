@@ -28,7 +28,7 @@ export default function Home() {
                 <li>
                   <i className="fa fa-whatsapp" />
                   <a href="http://WA.me/5544991658351" target="_blank">
-                    044 99165-8351
+                    044 9 9165-8351
                   </a>
                 </li>
                 <li>
