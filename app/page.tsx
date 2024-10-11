@@ -185,7 +185,7 @@ export default function Home() {
               </p>
               <br />
               <br />
-              <p className="para">(Atualizado 17/04/2024)</p>
+              <p className="para">(Atualizado 11/10/2024)</p>
             </section>
 
             <section className="experince sect">
