@@ -368,6 +368,19 @@ export default function Home() {
 
               <div className="timeline">
                 <div className="left-tl-content">
+                  <h5 className="tl-title">Analista de T I</h5>
+                  <p className="para">2018/10 - 2019/06</p>
+                </div>
+                <div className="right-tl-content">
+                  <div className="tl-content">
+                    <h5 className="tl-title-2">Prepara Cursos</h5>
+                    <p className="para"></p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="timeline">
+                <div className="left-tl-content">
                   <h5 className="tl-title">Pacote Office365</h5>
                   <p className="para">2018/09 - 2018/09</p>
                 </div>
