@@ -185,7 +185,7 @@ export default function Home() {
               </p>
               <br />
               <br />
-              <p className="para">(Atualizado 11/10/2024)</p>
+              <p className="para">(Atualizado 08/07/2025)</p>
             </section>
 
             <section className="experince sect">
@@ -277,7 +277,7 @@ export default function Home() {
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">UNICV</h5>
-                  <p className="para">2023 - 2024</p>
+                  <p className="para">2023 - 2025</p>
                 </div>
                 <div className="right-tl-content">
                   <div className="tl-content">
@@ -288,7 +288,7 @@ export default function Home() {
               </div>
               <div className="timeline">
                 <div className="left-tl-content">
-                  <h5 className="tl-title">Feitep (trancado)</h5>
+                  <h5 className="tl-title">Feitep</h5>
                   <p className="para">2018 - 2023</p>
                 </div>
                 <div className="right-tl-content">
