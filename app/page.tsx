@@ -20,7 +20,7 @@ export default function Home() {
                 />
               </div>
               <h2 className="name">Raul Henrique S. Sigoli</h2>
-              {/* <p className="career">Engenheiro de Computação</p> */}
+              <p className="career">Computer Enginner</p>
             </div>
 
             <div className="contact-info">
