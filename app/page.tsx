@@ -16,6 +16,7 @@ export default function Home() {
                 <img
                   src="https://avatars.githubusercontent.com/u/57502280?v=4"
                   alt=""
+                  draggable="false"
                 />
               </div>
               <h2 className="name">Raul Henrique S. Sigoli</h2>
