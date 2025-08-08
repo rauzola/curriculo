@@ -191,7 +191,31 @@ export default function Home() {
 
             <section className="experince sect">
               <h2 className="right-title">Dados Profissionais</h2>
-
+              <div className="timeline">
+                <div className="left-tl-content">
+                  <h5 className="tl-title">Prefeitura Municipal de Maringá</h5>
+                  <p className="para">2024/08 - 2024/12</p>
+                </div>
+                <div className="right-tl-content">
+                  <div className="tl-content">
+                    <h5 className="tl-title-2">
+                      Professor de Informática – Projeto Social
+                    </h5>
+                    <p className="para">
+                      Atuei como professor de informática no projeto social do
+                      Centro da Juventude Antônio Paulo Pucca, voltado a
+                      crianças e jovens de 12 a 29 anos em situação de
+                      vulnerabilidade.
+                      <br />
+                      <br />
+                      Ensinava noções básicas de informática, com foco em Word e
+                      Excel. Muitos alunos não sabiam nem ligar o computador ou
+                      escrever. A experiência foi extremamente enriquecedora,
+                      tanto no aspecto profissional quanto humano.
+                    </p>
+                  </div>
+                </div>
+              </div>
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">Datlo</h5>
@@ -233,9 +257,9 @@ export default function Home() {
                       realizados.
                       <br />
                       <br />
-                       Possuo experiência na edição de vídeos
-                      utilizando o Adobe Premiere e habilidades de edição
-                      gráfica no Adobe Photoshop.
+                      Possuo experiência na edição de vídeos utilizando o Adobe
+                      Premiere e habilidades de edição gráfica no Adobe
+                      Photoshop.
                     </p>
                   </div>
                 </div>
@@ -282,7 +306,9 @@ export default function Home() {
                 </div>
                 <div className="right-tl-content">
                   <div className="tl-content">
-                    <h5 className="tl-title-2">ANÁLISE E DESENVOLVIMENTO DE SISTEMAS ( ADS ) </h5>
+                    <h5 className="tl-title-2">
+                      ANÁLISE E DESENVOLVIMENTO DE SISTEMAS ( ADS ){" "}
+                    </h5>
                     <p className="para"></p>
                   </div>
                 </div>
@@ -313,9 +339,8 @@ export default function Home() {
               </div>
             </section>
             <section className="awards sect">
-              
               <h2 className="right-title">Crusos</h2>
-              
+
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">Ignite</h5>
@@ -504,5 +529,4 @@ export default function Home() {
       </main>
     </>
   );
-};
-
+}
