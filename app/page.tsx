@@ -241,27 +241,51 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-
-
           </div>
         </section>
 
         <section className="right-section">
           <div className="right-main-content">
             <section className="about sect">
-              <h2 className="right-title">Sobre min</h2>
+              <h2 className="right-title">Sobre mim</h2>
               <p className="para">
-                Raul Henrique Silva Sigoli, Programador Web dedicado e
-                competente, especializado na criação e desenvolvimento de
-                websites estéticos e funcionais. Apesar de ter experiência
-                breve, possui uma trajetória densa e significativa no campo.
-                Sempre em busca de novos desafios para impulsionar o crescimento
-                profissional.
+                Olá! Sou <strong>Raul Henrique Silva Sigoli</strong>,
+                Programador Web apaixonado por transformar ideias em websites
+                modernos, funcionais e esteticamente atraentes.
                 <br />
+                <br />
+                Tenho experiência em <strong>Front-end</strong> e{" "}
+                <strong>Back-end</strong>, trabalhando com tecnologias como{" "}
+                <strong>React, Next.js, Typescript, Node.js</strong> e muito
+                mais.
+                <br />
+                <br />
+                Este próprio site, que você está visitando, foi totalmente
+                desenvolvido por mim para demonstrar minhas habilidades práticas
+                com <strong>Front-end</strong>.<br />
+                Você pode conferir o código e todos os detalhes do projeto no
+                meu repositório: <br />
+                <a
+                  href="https://github.com/rauzola/curriculo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "#2D9CDB", textDecoration: "underline" }}
+                >
+                  https://github.com/rauzola/curriculo
+                </a>
+                <br />
+                <br />
+                Apesar de minha trajetória ainda estar em crescimento, já
+                participei de projetos relevantes que fortaleceram minhas
+                habilidades técnicas e criativas.
+                <br />
+                Estou sempre em busca de novos desafios que impulsionem meu
+                aprendizado e contribuam para resultados de impacto.
               </p>
               <br />
-              <br />
-              <p className="para">(Atualizado 15/08/2025)</p>
+              <p className="para">
+                <strong>Atualizado em:</strong> 15/08/2025
+              </p>
             </section>
 
             <section className="experince sect">
