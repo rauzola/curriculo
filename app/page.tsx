@@ -38,12 +38,21 @@ export default function Home() {
                     raul_sigoli@hotmail.com
                   </a>
                 </li>
-                {/* <li>
-                  <i className="fa fa-globe" />
-                  <a href="#" target="_blank">
-                    portfolio (EM-BREVE)
+                <li>
+                  <i className="fa fa-github" />
+                  <a
+                    href="https://github.com/rauzola?tab=repositories"
+                    target="_blank"
+                  >
+                    github.com/rauzola
                   </a>
-                </li> */}
+                </li>
+                {/* <li>
+      <i className="fa fa-globe" />
+      <a href="#" target="_blank">
+        portfolio (EM-BREVE)
+      </a>
+    </li> */}
                 <li>
                   <i className="fa fa-linkedin" />
                   <a
@@ -78,65 +87,21 @@ export default function Home() {
               <h3 className="main-title">Skills</h3>
               <ul>
                 <li>
-                  <p className="skill-title">React/Next</p>
+                  <p className="skill-title">React</p>
                   <div className="progress-bar">
-                    <div className="progress ps-progress" />
+                    <div className="progress react-progress" />
                   </div>
                 </li>
-
+                <li>
+                  <p className="skill-title">Next.js</p>
+                  <div className="progress-bar">
+                    <div className="progress next-progress" />
+                  </div>
+                </li>
                 <li>
                   <p className="skill-title">Typescript</p>
                   <div className="progress-bar">
-                    <div className="progress Typescript-progress" />
-                  </div>
-                </li>
-
-                <li>
-                  <p className="skill-title">Java</p>
-                  <div className="progress-bar">
-                    <div className="progress j-progress" />
-                  </div>
-                </li>
-
-                <li>
-                  <p className="skill-title">C</p>
-                  <div className="progress-bar">
-                    <div className="progress c-progress" />
-                  </div>
-                </li>
-
-                <li>
-                  <p className="skill-title">ANT-Design</p>
-                  <div className="progress-bar">
-                    <div className="progress ANT-progress" />
-                  </div>
-                </li>
-
-                <li>
-                  <p className="skill-title">Leaflet</p>
-                  <div className="progress-bar">
-                    <div className="progress Leaflet-progress" />
-                  </div>
-                </li>
-
-                <li>
-                  <p className="skill-title">Styled-components</p>
-                  <div className="progress-bar">
-                    <div className="progress Styled-progress" />
-                  </div>
-                </li>
-
-                <li>
-                  <p className="skill-title">GraphQL</p>
-                  <div className="progress-bar">
-                    <div className="progress GraphQL-progress" />
-                  </div>
-                </li>
-
-                <li>
-                  <p className="skill-title">html/css</p>
-                  <div className="progress-bar">
-                    <div className="progress ps-progress" />
+                    <div className="progress typescript-progress" />
                   </div>
                 </li>
                 <li>
@@ -145,29 +110,139 @@ export default function Home() {
                     <div className="progress js-progress" />
                   </div>
                 </li>
-
+                <li>
+                  <p className="skill-title">HTML / CSS</p>
+                  <div className="progress-bar">
+                    <div className="progress htmlcss-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Tailwind CSS</p>
+                  <div className="progress-bar">
+                    <div className="progress tailwind-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Styled-components</p>
+                  <div className="progress-bar">
+                    <div className="progress styled-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">ANT Design</p>
+                  <div className="progress-bar">
+                    <div className="progress ant-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Leaflet</p>
+                  <div className="progress-bar">
+                    <div className="progress leaflet-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">GraphQL</p>
+                  <div className="progress-bar">
+                    <div className="progress graphql-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Supabase</p>
+                  <div className="progress-bar">
+                    <div className="progress supabase-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Prismic.io</p>
+                  <div className="progress-bar">
+                    <div className="progress prismic-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Node.js</p>
+                  <div className="progress-bar">
+                    <div className="progress node-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Java</p>
+                  <div className="progress-bar">
+                    <div className="progress java-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">C</p>
+                  <div className="progress-bar">
+                    <div className="progress c-progress" />
+                  </div>
+                </li>
                 <li>
                   <p className="skill-title">C++</p>
                   <div className="progress-bar">
-                    <div className="progress cc-progress" />
+                    <div className="progress cpp-progress" />
                   </div>
                 </li>
-
                 <li>
-                  <p className="skill-title">Node js</p>
+                  <p className="skill-title">Delphi</p>
                   <div className="progress-bar">
-                    <div className="progress n-progress" />
+                    <div className="progress delphi-progress" />
                   </div>
                 </li>
-
                 <li>
-                  <p className="skill-title">illustrator</p>
+                  <p className="skill-title">Visual Basic 6</p>
                   <div className="progress-bar">
-                    <div className="progress ps-progress" />
+                    <div className="progress vb-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Adobe Photoshop</p>
+                  <div className="progress-bar">
+                    <div className="progress photoshop-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Adobe Illustrator</p>
+                  <div className="progress-bar">
+                    <div className="progress illustrator-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Adobe Premiere</p>
+                  <div className="progress-bar">
+                    <div className="progress premiere-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Edição de Vídeo</p>
+                  <div className="progress-bar">
+                    <div className="progress videoedit-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Pacote Office 365</p>
+                  <div className="progress-bar">
+                    <div className="progress office-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">
+                    Montagem e Manutenção de Computadores / Notebooks /
+                    Celulares
+                  </p>
+                  <div className="progress-bar">
+                    <div className="progress hardware-progress" />
+                  </div>
+                </li>
+                <li>
+                  <p className="skill-title">Redes</p>
+                  <div className="progress-bar">
+                    <div className="progress redes-progress" />
                   </div>
                 </li>
               </ul>
             </div>
+
+
           </div>
         </section>
 
@@ -186,11 +261,47 @@ export default function Home() {
               </p>
               <br />
               <br />
-              <p className="para">(Atualizado 08/08/2025)</p>
+              <p className="para">(Atualizado 15/08/2025)</p>
             </section>
 
             <section className="experince sect">
               <h2 className="right-title">Dados Profissionais</h2>
+
+              <div className="timeline">
+                <div className="left-tl-content">
+                  <h5 className="tl-title">
+                    Freelancer – Desenvolvimento de Software
+                  </h5>
+                  <p className="para">2023/08 - Atual</p>
+                </div>
+                <div className="right-tl-content">
+                  <div className="tl-content">
+                    <h5 className="tl-title-2">
+                      Desenvolvedor Full Stack – Sites e Sistemas Personalizados
+                    </h5>
+                    <p className="para">
+                      Atuei como desenvolvedor freelancer criando sites
+                      institucionais, landing pages, sistemas personalizados e
+                      CMSs para gerenciamento de conteúdo. Sempre com foco em
+                      interfaces modernas, responsivas, de alta performance e
+                      com otimização de SEO para melhor ranqueamento.
+                      <br />
+                      <br />
+                      Utilizei tecnologias como{" "}
+                      <strong>
+                        React, Next.js, Tailwind CSS, Styled-components,
+                        Supabase
+                      </strong>{" "}
+                      (banco de dados e autenticação),{" "}
+                      <strong>Prismic.io</strong> (CMS Headless), e integração
+                      de <strong>APIs REST</strong>. Também desenvolvi o
+                      back-end das aplicações, garantindo a integração perfeita
+                      entre o front-end e os serviços de dados.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">Prefeitura Municipal de Maringá</h5>
@@ -216,6 +327,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">Datlo</h5>
@@ -274,13 +386,14 @@ export default function Home() {
                   <div className="tl-content">
                     <h5 className="tl-title-2">Estagiário de Infraestrutura</h5>
                     <p className="para">
-                      Atuava na parte de Infraestrutura da fabrica, reparando e
+                      Atuava na parte de Infraestrutura da fábrica, reparando e
                       arrumando computadores, impressoras e sistemas (quando
                       necessitava).
                     </p>
                   </div>
                 </div>
               </div>
+
               <div className="timeline">
                 <div className="left-tl-content">
                   <h5 className="tl-title">Band Maringa</h5>
@@ -290,13 +403,14 @@ export default function Home() {
                   <div className="tl-content">
                     <h5 className="tl-title-2">Editor</h5>
                     <p className="para">
-                      Editava videos e materias do Programa da Mirna Lavecc, que
-                      ia ao ar todos os sabados
+                      Editava vídeos e matérias do Programa da Mirna Lavecc, que
+                      ia ao ar todos os sábados.
                     </p>
                   </div>
                 </div>
               </div>
             </section>
+
             <section className="education sect">
               <h2 className="right-title">Escolaridade</h2>
               <div className="timeline">
