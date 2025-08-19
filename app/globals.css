@@ -216,6 +216,8 @@ body {
 .office-progress { width: 95%; }
 .hardware-progress { width: 95%; }
 .redes-progress { width: 75%; }
+.prisma-progress { width: 75%; }
+.c-cpp-progress{ width: 75%; }
 
 
 .skill-title {
@@ -377,3 +379,4 @@ body {
         font-size: 1.5rem;
     }
 }
+

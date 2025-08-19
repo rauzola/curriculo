@@ -87,6 +87,9 @@ export default function Home() {
 
             <div className="skills-section">
               <h3 className="main-title">Skills</h3>
+              <br />
+              {/* Front-end */}
+              <h4 className="career">Front-end</h4>
               <ul>
                 <li>
                   <p className="skill-title">React</p>
@@ -142,6 +145,18 @@ export default function Home() {
                     <div className="progress leaflet-progress" />
                   </div>
                 </li>
+              </ul>
+              <br />
+
+              {/* Back-end */}
+              <h4 className="career">Back-end / Banco de Dados</h4>
+              <ul>
+                <li>
+                  <p className="skill-title">Node.js</p>
+                  <div className="progress-bar">
+                    <div className="progress node-progress" />
+                  </div>
+                </li>
                 <li>
                   <p className="skill-title">GraphQL</p>
                   <div className="progress-bar">
@@ -155,15 +170,9 @@ export default function Home() {
                   </div>
                 </li>
                 <li>
-                  <p className="skill-title">Prismic.io</p>
+                  <p className="skill-title">Prisma</p>
                   <div className="progress-bar">
-                    <div className="progress prismic-progress" />
-                  </div>
-                </li>
-                <li>
-                  <p className="skill-title">Node.js</p>
-                  <div className="progress-bar">
-                    <div className="progress node-progress" />
+                    <div className="progress " />
                   </div>
                 </li>
                 <li>
@@ -173,15 +182,9 @@ export default function Home() {
                   </div>
                 </li>
                 <li>
-                  <p className="skill-title">C</p>
+                  <p className="skill-title">C / C++</p>
                   <div className="progress-bar">
-                    <div className="progress c-progress" />
-                  </div>
-                </li>
-                <li>
-                  <p className="skill-title">C++</p>
-                  <div className="progress-bar">
-                    <div className="progress cpp-progress" />
+                    <div className="progress c-cpp-progress" />
                   </div>
                 </li>
                 <li>
@@ -196,6 +199,12 @@ export default function Home() {
                     <div className="progress vb-progress" />
                   </div>
                 </li>
+              </ul>
+              <br />
+
+              {/* Design e Edição */}
+              <h4 className="career">Design / Edição</h4>
+              <ul>
                 <li>
                   <p className="skill-title">Adobe Photoshop</p>
                   <div className="progress-bar">
@@ -220,6 +229,12 @@ export default function Home() {
                     <div className="progress videoedit-progress" />
                   </div>
                 </li>
+              </ul>
+              <br />
+
+              {/* Ferramentas / Hardware / Redes */}
+              <h4 className="career">Ferramentas / Hardware / Redes</h4>
+              <ul>
                 <li>
                   <p className="skill-title">Pacote Office 365</p>
                   <div className="progress-bar">
@@ -254,9 +269,12 @@ export default function Home() {
                 className="para"
                 style={{ lineHeight: "1.8", marginBottom: "1.5rem" }}
               >
-                 <strong>Objetivo Profissional:</strong> Busco oportunidades como Desenvolvedor Full Stack, onde possa aplicar minhas habilidades em React, Next.js e Node.js para criar soluções inovadoras e impactantes.
-    <br />
-    <br />
+                <strong>Objetivo Profissional:</strong> Busco oportunidades como
+                Desenvolvedor Full Stack, onde possa aplicar minhas habilidades
+                em React, Next.js e Node.js para criar soluções inovadoras e
+                impactantes.
+                <br />
+                <br />
                 Olá! Sou <strong>Raul Henrique Silva Sigoli</strong>,
                 Programador Web apaixonado por transformar ideias em websites
                 modernos, funcionais e esteticamente atraentes.
