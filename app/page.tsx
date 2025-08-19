@@ -254,6 +254,9 @@ export default function Home() {
                 className="para"
                 style={{ lineHeight: "1.8", marginBottom: "1.5rem" }}
               >
+                 <strong>Objetivo Profissional:</strong> Busco oportunidades como Desenvolvedor Full Stack, onde possa aplicar minhas habilidades em React, Next.js e Node.js para criar soluções inovadoras e impactantes.
+    <br />
+    <br />
                 Olá! Sou <strong>Raul Henrique Silva Sigoli</strong>,
                 Programador Web apaixonado por transformar ideias em websites
                 modernos, funcionais e esteticamente atraentes.
