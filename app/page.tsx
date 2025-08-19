@@ -20,7 +20,9 @@ export default function Home() {
                 />
               </div>
               <h2 className="name">Raul Henrique S. Sigoli</h2>
-              <p className="career">Desenvolvedor Full-Stack / Front-end React</p>
+              <p className="career">
+                Desenvolvedor Full-Stack / Front-end React
+              </p>
             </div>
 
             <div className="contact-info">
@@ -248,7 +250,10 @@ export default function Home() {
           <div className="right-main-content">
             <section className="about sect">
               <h2 className="right-title">Sobre mim</h2>
-              <p className="para">
+              <p
+                className="para"
+                style={{ lineHeight: "1.8", marginBottom: "1.5rem" }}
+              >
                 Olá! Sou <strong>Raul Henrique Silva Sigoli</strong>,
                 Programador Web apaixonado por transformar ideias em websites
                 modernos, funcionais e esteticamente atraentes.
@@ -256,15 +261,18 @@ export default function Home() {
                 <br />
                 Tenho experiência em <strong>Front-end</strong> e{" "}
                 <strong>Back-end</strong>, trabalhando com tecnologias como{" "}
-                <strong>React, Next.js, Typescript, Node.js</strong> e muito
+                <strong>React, Next.js, TypeScript, Node.js</strong> e muito
                 mais.
                 <br />
                 <br />
                 Este próprio site, que você está visitando, foi totalmente
                 desenvolvido por mim para demonstrar minhas habilidades práticas
-                com <strong>Front-end</strong>.<br />
+                com <strong>Front-end</strong>.
+                <br />
+                <br />
                 Você pode conferir o código e todos os detalhes do projeto no
-                meu repositório: <br />
+                meu repositório:
+                <br />
                 <a
                   href="https://github.com/rauzola/curriculo"
                   target="_blank"
@@ -275,16 +283,40 @@ export default function Home() {
                 </a>
                 <br />
                 <br />
-                Apesar de minha trajetória ainda estar em crescimento, já
-                participei de projetos relevantes que fortaleceram minhas
-                habilidades técnicas e criativas.
+                Apesar de minha trajetória ainda estar em crescimento, já tive a
+                oportunidade de participar de projetos significativos que
+                fortaleceram minhas habilidades técnicas e criativas.
                 <br />
-                Estou sempre em busca de novos desafios que impulsionem meu
-                aprendizado e contribuam para resultados de impacto.
+                <br />
+                Um dos mais relevantes foi o <strong>Projeto Mais Vida</strong>,
+                da Igreja Católica (Paróquia Catedral Nossa Senhora da Glória –
+                Maringá), onde desenvolvi um{" "}
+                <strong>sistema completo de autenticação e autorização</strong>,
+                garantindo que apenas pessoas autorizadas pudessem acessar dados
+                sensíveis e relatórios dos eventos. O sistema conta com{" "}
+                <em>controle de acesso por papéis</em>, interface moderna e foco
+                em segurança robusta.
+                <br />
+                <br />
+                Além disso, implementei um{" "}
+                <strong>sistema de gerenciamento de eventos</strong>, em
+                funcionamento desde <strong>janeiro de 2025</strong>, com
+                recursos como <em>inscrição de participantes</em>,{" "}
+                <em>geração automática de relatórios</em> e{" "}
+                <em>estatísticas detalhadas</em>. Esta solução tem sido
+                fundamental para a organização dos acampamentos e demais
+                atividades do Projeto Mais Vida.
+                <br />
+                <br />
+                Estou sempre em busca de novos desafios que ampliem meu
+                aprendizado e contribuam para gerar resultados de impacto
+                positivo.
               </p>
-              <br />
-              <p className="para">
-                <strong>Atualizado em:</strong> 15/08/2025
+              <p
+                className="para"
+                style={{ marginTop: "2rem", fontStyle: "italic" }}
+              >
+                <strong>Atualizado em:</strong> 19/08/2025
               </p>
             </section>
 
