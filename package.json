@@ -15,8 +15,7 @@
     "react-dom": "^19"
   },
   "engines": {
-    "node": ">=20",
-    "pnpm": ">=10"
+    "node": ">=20"
   },
   "devDependencies": {
     "@types/node": "^22",
