@@ -28,7 +28,12 @@ export const contactItems: ContactItem[] = [
   {
     icon: "fa-linkedin",
     href: "https://www.linkedin.com/in/raul-sigoli-137bb4173/",
-    label: "www.linkedin.com",
+    label: "linkedin.com/in/raul-sigoli",
+  },
+  {
+    icon: "fa-globe",
+    href: "https://curriculo-navy.vercel.app/",
+    label: "curriculo-navy.vercel.app",
   },
   {
     icon: "fa-instagram",

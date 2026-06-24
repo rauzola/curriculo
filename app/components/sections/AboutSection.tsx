@@ -57,8 +57,16 @@ export function AboutSection() {
       <p className="para">
         Este próprio site, que você está visitando, foi totalmente desenvolvido
         por mim para demonstrar minhas habilidades práticas com{" "}
-        <strong>Front-end</strong>. Você pode conferir o código e todos os
-        detalhes no meu repositório:{" "}
+        <strong>Front-end</strong>. Veja a versão online em{" "}
+        <a
+          href="https://curriculo-navy.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="link-accent"
+        >
+          curriculo-navy.vercel.app
+        </a>{" "}
+        e confira o código no repositório:{" "}
         <a
           href="https://github.com/rauzola/curriculo"
           target="_blank"

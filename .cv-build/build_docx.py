@@ -70,7 +70,8 @@ sp(p, after=2)
 
 c = data.get("contatos", {})
 bits = [data.get("localizacao"), c.get("email"), c.get("telefone"),
-        c.get("linkedin"), c.get("github"), c.get("portfolio")]
+        c.get("linkedin"), c.get("github"), c.get("portfolio"),
+        c.get("curriculoOnline")]
 bits = [b for b in bits if b]
 p = doc.add_paragraph()
 r = p.add_run("  •  ".join(bits))

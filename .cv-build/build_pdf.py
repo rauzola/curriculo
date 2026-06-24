@@ -66,7 +66,8 @@ mc(6, data["tituloAlvo"])
 
 c = data.get("contatos", {})
 bits = [data.get("localizacao"), c.get("email"), c.get("telefone"),
-        c.get("linkedin"), c.get("github"), c.get("portfolio")]
+        c.get("linkedin"), c.get("github"), c.get("portfolio"),
+        c.get("curriculoOnline")]
 bits = [b for b in bits if b]
 pdf.set_font("Arial", "", 8.5)
 pdf.set_text_color(*GRAY)
