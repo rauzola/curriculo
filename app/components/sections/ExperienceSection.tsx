@@ -14,8 +14,36 @@ export function ExperienceSection() {
       <h2 className="right-title">Dados Profissionais</h2>
 
       <TimelineItem
+        period="2025/09 - Atual"
+        institution="ID Brasil Sistemas"
+        role="Desenvolvedor Front-end / Full-Stack"
+      >
+        <p className="para">
+          Desenvolvo o <strong>Wincrm</strong>, um CRM multi-tenant SaaS de
+          fidelidade e relacionamento com o cliente. Construo interfaces e
+          fluxos complexos com{" "}
+          <strong>
+            React, TypeScript, Vite, Ant Design v5, Redux Toolkit e React Query
+          </strong>
+          , em módulos como cashback (FIFO), campanhas, disparo em massa, Matriz
+          RFV e relatórios com ApexCharts — sempre considerando o controle de
+          acesso por papéis (RBAC) do sistema.
+        </p>
+        <p className="para">
+          Implementei a integração com a{" "}
+          <strong>WhatsApp Business API (Meta)</strong> (Embedded Signup, gestão
+          de templates e disparos) e criei o <strong>ChatIA RFV</strong>, uma
+          feature de <strong>Inteligência Artificial</strong> que usa a{" "}
+          <strong>OpenAI com function-calling</strong> para analisar a base de
+          clientes e executar ações reais no CRM. Também contribuo no{" "}
+          <strong>Codex</strong>, plataforma interna de gestão de
+          desenvolvimento (<strong>Next.js, React, Prisma, MySQL e MongoDB</strong>).
+        </p>
+      </TimelineItem>
+
+      <TimelineItem
         period="2023/08 - Atual"
-        institution="Freelancer – Desenvolvimento de Software"
+        institution="Freelancer – Desenvolvimento de Software (marca SIGOLI)"
         role="Desenvolvedor Full Stack – Sites e Sistemas Personalizados"
       >
         <p className="para">
@@ -33,6 +61,15 @@ export function ExperienceSection() {
           Headless), e integração de <strong>APIs REST</strong>. Também
           desenvolvi o back-end das aplicações, garantindo a integração perfeita
           entre o front-end e os serviços de dados.
+        </p>
+        <p className="para">
+          Entre os projetos em produção:{" "}
+          <strong>Habilidades Humanas RH</strong> (cliente recorrente, com
+          depoimento e novas indicações), <strong>Projeto Mais Vida</strong>{" "}
+          (site <em>#1 no Google</em> e <em>100% de SEO Score</em>),{" "}
+          <strong>Borracharia Ceasa</strong> (empresa de 48 anos, captação B2B) e
+          a ONG <strong>MAREV</strong>. Todos os clientes chegaram por
+          indicação.
         </p>
       </TimelineItem>
 

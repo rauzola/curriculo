@@ -341,3 +341,88 @@ a:focus-visible {
     display: none;
   }
 }
+
+/* ============================================================
+   IMPRESSÃO / PDF (A4) — mantém o design do site online
+   ============================================================ */
+@media print {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  *,
+  *::before,
+  *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Escala global: a maioria dos tamanhos é em rem, então
+     reduzir a base encolhe tudo proporcionalmente para caber bem no A4. */
+  html {
+    font-size: 10.5px;
+  }
+
+  body {
+    background: var(--color-content-bg);
+  }
+
+  .skip-link {
+    display: none !important;
+  }
+
+  .main-content {
+    width: 100%;
+    margin: 0;
+    min-height: 100vh;
+    /* Gradiente pinta a faixa da sidebar em altura cheia, então a
+       coluna escura "continua" mesmo quando o conteúdo quebra de página.
+       2fr de 7fr = 28.57%. */
+    background: linear-gradient(
+      to right,
+      var(--color-sidebar) 0 28.57%,
+      var(--color-content-bg) 28.57% 100%
+    );
+  }
+
+  .left-section,
+  .right-section {
+    background: transparent;
+  }
+
+  .left-content {
+    padding: 1.6rem 1.7rem;
+  }
+
+  .right-main-content {
+    padding: 1.6rem 2rem;
+  }
+
+  .profile img {
+    width: 70%;
+  }
+
+  .main-title {
+    padding-top: 2rem;
+  }
+
+  /* Evita cortar uma experiência/entrada no meio entre páginas */
+  .timeline-item {
+    break-inside: avoid;
+  }
+
+  .profile,
+  .skills-section ul li {
+    break-inside: avoid;
+  }
+
+  /* Não deixa um título de seção sozinho no fim da página */
+  .right-title {
+    break-after: avoid;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}

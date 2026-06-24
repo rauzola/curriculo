@@ -1,0 +1,236 @@
+{
+  "nome": "Raul Henrique Silva Sigoli",
+  "tituloAlvo": "Desenvolvedor Full-Stack Pleno (React, Next.js, Node.js, TypeScript)",
+  "localizacao": "Maringá, PR — Brasil",
+  "contatos": {
+    "email": "raul_sigoli@hotmail.com",
+    "telefone": "+55 44 99165-8351",
+    "linkedin": "linkedin.com/in/raul-sigoli-137bb4173",
+    "github": "github.com/rauzola",
+    "portfolio": "raul-portfolio.vercel.app"
+  },
+  "resumo": "Desenvolvedor Full-Stack focado em React, Next.js, TypeScript e Node.js, com ownership de ponta a ponta — do front-end à integração com banco de dados, APIs e IA. Na ID Brasil Sistemas, desenvolve o Wincrm, um CRM SaaS multi-tenant, e criou features de Inteligência Artificial com a OpenAI (function-calling) que executam ações reais na plataforma. Em paralelo, entrega sites e sistemas sob medida como freelancer (marca SIGOLI), com resultados concretos de SEO, incluindo um site #1 no Google com 100% de SEO Score. Pratica desenvolvimento assistido por IA (Cursor, Claude Code e Codex) para acelerar entregas mantendo qualidade. Une domínio de front e back-end à capacidade de transformar requisitos em produtos completos em produção. Busca uma posição de Full-Stack Pleno onde possa somar entrega de produto, performance e diferencial técnico em IA.",
+  "competencias": [
+    {
+      "categoria": "Front-end",
+      "itens": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Tailwind CSS",
+        "Styled-components",
+        "Ant Design v5",
+        "Redux Toolkit",
+        "React Query (TanStack)",
+        "Vite",
+        "Leaflet"
+      ]
+    },
+    {
+      "categoria": "Back-end e Banco de Dados",
+      "itens": [
+        "Node.js",
+        "API REST",
+        "GraphQL",
+        "Prisma",
+        "PostgreSQL",
+        "Supabase",
+        "MySQL",
+        "MongoDB",
+        "Java"
+      ]
+    },
+    {
+      "categoria": "IA e Integrações",
+      "itens": [
+        "Desenvolvimento assistido por IA (Cursor, Claude Code, Codex, OpenCode)",
+        "Engenharia de prompt",
+        "OpenAI / LLMs (function-calling)",
+        "WhatsApp Business API (Meta)",
+        "Integração de APIs",
+        "Webhooks"
+      ]
+    },
+    {
+      "categoria": "Testes e Ferramentas",
+      "itens": [
+        "Jest",
+        "React Testing Library",
+        "Storybook",
+        "Git",
+        "SVN",
+        "Vercel"
+      ]
+    },
+    {
+      "categoria": "Design",
+      "itens": [
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Adobe Premiere"
+      ]
+    }
+  ],
+  "experiencias": [
+    {
+      "cargo": "Desenvolvedor Front-end / Full-Stack",
+      "empresa": "ID Brasil Sistemas",
+      "local": "Maringá, PR (presencial)",
+      "periodo": "set/2025 — Atual",
+      "bullets": [
+        "Desenvolvo o Wincrm, CRM SaaS multi-tenant de fidelidade e relacionamento com o cliente, em React 18, TypeScript, Vite, Ant Design v5, Redux Toolkit e React Query (TanStack), entregando produto em produção.",
+        "Implementei módulos de cashback com lógica FIFO, campanhas, disparo em massa, Matriz RFV para segmentação de clientes e relatórios com ApexCharts, ampliando a inteligência de fidelização do CRM.",
+        "Criei o controle de acesso por papéis (RBAC) em 4 níveis, garantindo segurança e isolamento de dados na arquitetura multi-tenant.",
+        "Integrei a WhatsApp Business API (Meta) com Embedded Signup, gestão de templates e disparos, habilitando comunicação em escala direto pelo CRM.",
+        "Criei o ChatIA RFV, feature de Inteligência Artificial que usa a OpenAI com function-calling para analisar a base de clientes e executar ações reais no CRM — etiquetar segmentos, criar campanhas, enviar mensagens e reativar benefícios —, além de um painel de análise automática.",
+        "Contribuo no Codex, plataforma interna de gestão de desenvolvimento (Kanban, sprints, métricas e auditoria), em Next.js 15, React 19, TypeScript, Tailwind CSS, Prisma, MySQL e MongoDB.",
+        "Garanti qualidade com testes em Jest e documentação de componentes em Storybook."
+      ]
+    },
+    {
+      "cargo": "Desenvolvedor Full-Stack (marca SIGOLI)",
+      "empresa": "Freelancer",
+      "local": "Maringá, PR (remoto)",
+      "periodo": "ago/2023 — Atual",
+      "bullets": [
+        "Desenvolvi sites institucionais, landing pages, sistemas sob medida e CMS para pequenas empresas e profissionais, em Next.js, React, TypeScript, Tailwind CSS, Styled-components, Supabase, Prisma, Prismic CMS e APIs REST.",
+        "Entreguei o Projeto Mais Vida (Next.js, Supabase, Prisma, PostgreSQL): site #1 no Google com 100% de SEO Score, somado a um sistema de gestão de eventos com autenticação RBAC, inscrições, calendário e relatórios, há mais de 1 ano em produção.",
+        "Desenvolvi o site institucional da Habilidades Humanas RH em Next.js e Prismic CMS, conquistando cliente recorrente, com depoimento e novas indicações.",
+        "Criei o site da Borracharia Ceasa, empresa de 48 anos em SP, com foco em captação B2B, SEO local e integração com WhatsApp.",
+        "Desenvolvi o site da MAREV, ONG de acolhimento, em Next.js, Prisma e PostgreSQL.",
+        "Atuei com ownership de ponta a ponta: levantamento de requisitos, front-end, back-end, banco de dados e otimização de SEO."
+      ]
+    },
+    {
+      "cargo": "Professor de Informática (Projeto Social)",
+      "empresa": "Prefeitura Municipal de Maringá",
+      "local": "Maringá, PR",
+      "periodo": "ago/2024 — dez/2024",
+      "bullets": [
+        "Ministrei noções básicas de informática (Word e Excel) no Centro da Juventude Antônio Paulo Pucca, para crianças e jovens de 12 a 29 anos em situação de vulnerabilidade social."
+      ]
+    },
+    {
+      "cargo": "Estagiário Front-end (React)",
+      "empresa": "Datlo (Y Combinator S21)",
+      "local": "Maringá, PR",
+      "periodo": "out/2022 — jul/2023",
+      "bullets": [
+        "Desenvolvi o front-end de uma plataforma de location intelligence que ajuda empresas a encontrar clientes, monitorar concorrentes e escolher pontos comerciais, em React, Next.js, TypeScript, Ant Design, Leaflet, Styled-components e GraphQL."
+      ]
+    },
+    {
+      "cargo": "Estagiário de TI",
+      "empresa": "ANPAD",
+      "local": "Maringá, PR",
+      "periodo": "ago/2020 — ago/2022",
+      "bullets": [
+        "Desenvolvi front-end de sites e rotas de eventos.",
+        "Realizei edição de vídeo (Adobe Premiere) e tratamento de imagens (Adobe Photoshop)."
+      ]
+    },
+    {
+      "cargo": "Estágio de TI / Infraestrutura",
+      "empresa": "Pressure Compressores",
+      "local": "Maringá, PR",
+      "periodo": "fev/2019 — nov/2019",
+      "bullets": [
+        "Atuei em infraestrutura de TI, com manutenção de computadores, impressoras e sistemas."
+      ]
+    },
+    {
+      "cargo": "Editor de Vídeo",
+      "empresa": "Band Maringá",
+      "local": "Maringá, PR",
+      "periodo": "2017 — 2018",
+      "bullets": [
+        "Editei vídeos e matérias do Programa da Mirna Lavecc, de veiculação semanal."
+      ]
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Análise e Desenvolvimento de Sistemas",
+      "instituicao": "UNICV — Centro Universitário Cidade Verde",
+      "periodo": "2023 — 2025 (concluído)"
+    },
+    {
+      "curso": "Engenharia de Computação",
+      "instituicao": "FEITEP",
+      "periodo": "2018 — 2024"
+    },
+    {
+      "curso": "Ensino Médio",
+      "instituicao": "SESI",
+      "periodo": "2015 — 2017"
+    }
+  ],
+  "cursos": [
+    {
+      "nome": "Ignite e GoStack (React, Node.js, React Native)",
+      "instituicao": "Rocketseat",
+      "periodo": "2020 — 2024"
+    },
+    {
+      "nome": "DB1 Start",
+      "instituicao": "DB1 Group",
+      "periodo": "2019"
+    },
+    {
+      "nome": "Analista de TI, Java, Lógica de Programação e Redes",
+      "instituicao": "Prepara Cursos",
+      "periodo": "2017 — 2019"
+    }
+  ],
+  "idiomas": [
+    {
+      "idioma": "Português",
+      "nivel": "Nativo"
+    },
+    {
+      "idioma": "Inglês",
+      "nivel": "Leitura técnica de documentação"
+    }
+  ],
+  "projetos": [
+    {
+      "nome": "ChatIA RFV (Wincrm)",
+      "descricao": "Feature de IA com OpenAI e function-calling que analisa a base de clientes e executa ações reais no CRM — etiquetar segmentos, criar campanhas, enviar mensagens e reativar benefícios — com painel de análise automática.",
+      "stack": "React, TypeScript, OpenAI (function-calling)",
+      "url": ""
+    },
+    {
+      "nome": "Projeto Mais Vida",
+      "descricao": "Site #1 no Google com 100% de SEO Score, somado a um sistema de gestão de eventos com autenticação RBAC, inscrições, calendário e relatórios. Há mais de 1 ano em produção.",
+      "stack": "Next.js, Supabase, Prisma, PostgreSQL",
+      "url": "projetomaisvida.com.br"
+    },
+    {
+      "nome": "Codex",
+      "descricao": "Plataforma interna de gestão de desenvolvimento com Kanban, sprints, métricas e auditoria.",
+      "stack": "Next.js 15, React 19, TypeScript, Tailwind CSS, Prisma, MySQL, MongoDB",
+      "url": ""
+    },
+    {
+      "nome": "Habilidades Humanas RH",
+      "descricao": "Site institucional para cliente recorrente, com depoimento e novas indicações geradas.",
+      "stack": "Next.js, Prismic CMS",
+      "url": "habilidadeshumanasrh.com.br"
+    },
+    {
+      "nome": "Borracharia Ceasa",
+      "descricao": "Site institucional para empresa de 48 anos (SP), com foco em captação B2B, SEO local e integração com WhatsApp.",
+      "stack": "Next.js",
+      "url": "borrachariaceasa.com.br"
+    },
+    {
+      "nome": "MAREV",
+      "descricao": "Site para ONG de acolhimento.",
+      "stack": "Next.js, Prisma, PostgreSQL",
+      "url": "marev.com.br"
+    }
+  ]
+}

@@ -13,9 +13,11 @@ export function AboutSection() {
       <h2 className="right-title">Sobre mim</h2>
 
       <p className="para">
-        <strong>Objetivo Profissional:</strong> Busco oportunidades como
-        Desenvolvedor Full Stack, onde possa aplicar minhas habilidades em
-        React, Next.js e Node.js para criar soluções inovadoras e impactantes.
+        <strong>Objetivo Profissional:</strong> Busco uma posição como{" "}
+        <strong>Desenvolvedor Full-Stack Pleno</strong> (React, Next.js e
+        Node.js), entregando produtos completos — do front-end à integração com
+        banco de dados, APIs e serviços de IA — com foco em performance,
+        qualidade de código e impacto real no negócio.
       </p>
 
       <p className="para">
@@ -28,6 +30,28 @@ export function AboutSection() {
         Tenho experiência em <strong>Front-end</strong> e{" "}
         <strong>Back-end</strong>, trabalhando com tecnologias como{" "}
         <strong>React, Next.js, TypeScript, Node.js</strong> e muito mais.
+      </p>
+
+      <p className="para">
+        Atualmente atuo na <strong>ID Brasil Sistemas</strong>, onde desenvolvo o{" "}
+        <strong>Wincrm</strong> — um CRM multi-tenant SaaS de fidelidade — com{" "}
+        <strong>
+          React, TypeScript, Vite, Ant Design, Redux Toolkit e React Query
+        </strong>
+        , incluindo a integração com a{" "}
+        <strong>WhatsApp Business API (Meta)</strong>. Também criei o{" "}
+        <strong>ChatIA RFV</strong>, uma funcionalidade de{" "}
+        <strong>Inteligência Artificial</strong> que usa a{" "}
+        <strong>OpenAI com function-calling</strong> para analisar a base de
+        clientes e executar ações dentro do próprio sistema.
+      </p>
+
+      <p className="para">
+        No dia a dia, pratico{" "}
+        <strong>desenvolvimento assistido por IA</strong> — com{" "}
+        <strong>Cursor, Claude Code, Codex e OpenCode</strong> — para entregar
+        mais rápido sem abrir mão de qualidade, testes e boas práticas de
+        código.
       </p>
 
       <p className="para">
@@ -46,9 +70,9 @@ export function AboutSection() {
       </p>
 
       <p className="para">
-        Apesar de minha trajetória ainda estar em crescimento, já tive a
-        oportunidade de participar de projetos significativos que fortaleceram
-        minhas habilidades técnicas e criativas.
+        Ao longo da minha trajetória, participei de projetos significativos —
+        de sistemas corporativos a produtos próprios — que fortaleceram minhas
+        habilidades técnicas e criativas.
       </p>
 
       <p className="para">
