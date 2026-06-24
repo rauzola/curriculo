@@ -8,6 +8,11 @@ from fpdf import FPDF
 data = json.load(open(sys.argv[1], encoding="utf-8"))
 out = sys.argv[2]
 
+# Títulos de seção (PT por padrão; sobrescreva via "labels" no JSON para EN).
+LBL = data.get("labels", {})
+def L(k, d):
+    return LBL.get(k, d)
+
 ACCENT = (11, 95, 138)
 DARK = (33, 33, 33)
 GRAY = (90, 90, 90)
@@ -75,14 +80,14 @@ mc(4.5, "  |  ".join(bits))
 pdf.ln(1)
 
 # Resumo
-section("Resumo")
+section(L("resumo", "Resumo"))
 pdf.set_font("Arial", "", 10)
 pdf.set_text_color(*DARK)
 mc(4.9, data["resumo"])
 
 # Competencias
 if data.get("competencias"):
-    section("Competências")
+    section(L("competencias", "Competências"))
     for cat in data["competencias"]:
         pdf.set_x(LM)
         pdf.set_font("Arial", "B", 10)
@@ -93,7 +98,7 @@ if data.get("competencias"):
         pdf.ln(5.4)
 
 # Experiencia
-section("Experiência Profissional")
+section(L("experiencia", "Experiência Profissional"))
 for e in data.get("experiencias", []):
     pdf.set_font("Arial", "B", 10.5)
     pdf.set_text_color(*DARK)
@@ -108,7 +113,7 @@ for e in data.get("experiencias", []):
 
 # Projetos
 if data.get("projetos"):
-    section("Projetos em Destaque")
+    section(L("projetos", "Projetos em Destaque"))
     for pr in data["projetos"]:
         pdf.set_x(LM)
         pdf.set_font("Arial", "B", 10)
@@ -130,7 +135,7 @@ if data.get("projetos"):
 
 # Formacao
 if data.get("formacao"):
-    section("Formação Acadêmica")
+    section(L("formacao", "Formação Acadêmica"))
     for f in data["formacao"]:
         pdf.set_x(LM)
         pdf.set_font("Arial", "B", 10)
@@ -142,14 +147,14 @@ if data.get("formacao"):
 
 # Cursos
 if data.get("cursos"):
-    section("Cursos e Certificações")
+    section(L("cursos", "Cursos e Certificações"))
     for cu in data["cursos"]:
         bits = [cu.get("nome"), cu.get("instituicao"), cu.get("periodo")]
         bullet(" - ".join([b for b in bits if b]), size=9.6)
 
 # Idiomas
 if data.get("idiomas"):
-    section("Idiomas")
+    section(L("idiomas", "Idiomas"))
     pdf.set_font("Arial", "", 10)
     pdf.set_text_color(*DARK)
     mc(4.9, "; ".join("%s: %s" % (i["idioma"], i["nivel"]) for i in data["idiomas"]))

@@ -13,11 +13,14 @@ export function AboutSection() {
       <h2 className="right-title">Sobre mim</h2>
 
       <p className="para">
-        <strong>Objetivo Profissional:</strong> Busco uma posição como{" "}
-        <strong>Desenvolvedor Full-Stack Pleno</strong> (React, Next.js e
-        Node.js), entregando produtos completos — do front-end à integração com
-        banco de dados, APIs e serviços de IA — com foco em performance,
-        qualidade de código e impacto real no negócio.
+        <strong>Objetivo Profissional:</strong> Desenvolvedor Full-Stack com
+        cerca de <strong>4 anos de experiência</strong> em{" "}
+        <strong>React, Next.js, TypeScript e Node.js</strong>, incluindo
+        integração com <strong>serviços de IA (OpenAI / LLMs)</strong>. Busco uma
+        posição <strong>Pleno</strong>, entregando produtos completos — do
+        front-end à integração com banco de dados e APIs — com foco em
+        performance, qualidade de código e impacto real no negócio.{" "}
+        <em>Inglês: leitura técnica de documentação.</em>
       </p>
 
       <p className="para">
